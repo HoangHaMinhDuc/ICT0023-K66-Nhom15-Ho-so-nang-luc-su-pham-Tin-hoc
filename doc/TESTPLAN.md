@@ -61,3 +61,5 @@ Người lập: Tester(Ngô Thùy Ngân)
 | **TC-EDGE-03** | Chống mã độc XSS | Ký tự đặc biệt (Security) | `<script>alert('XSS')</script>`, `<b>Test</b>`, `@#$%^&*()` | Hiển thị dưới dạng chuỗi văn bản an toàn (escaped text), không thực thi mã lệnh HTML/JS[cite: 10]. |
 | **TC-EDGE-04** | Sai định dạng Email | Giá trị không hợp lệ | `ngantk@`, `ngantk.com`, `ngan@gmail` (thiếu phần mở rộng domain) | Trình duyệt kích hoạt cảnh báo sai chuẩn email. |
 | **TC-EDGE-05** | Số điện thoại chứa ký tự | Định dạng số | `0987abc123`, `098-765-432` | Báo lỗi định dạng chỉ chấp nhận đúng 10 chữ số tiêu chuẩn. |
+
+## 8.
