@@ -53,7 +53,7 @@ Người lập: Tester(Ngô Thùy Ngân)
   - **Bố cục văn bản:** Kích thước font chữ rõ ràng, khoảng cách dòng hợp lý, văn bản tự động xuống dòng không bị tràn khung viền thẻ card.
   - **Tương thích:** Toàn bộ thành phần Bootstrap và CSS tùy biến hiển thị đồng nhất, không phát sinh lỗi lệch giao diện giữa các trình duyệt.
 
-## 7. Thiết kế bộ ca kiểm thử đặc biệt cho Form (Edge Cases)[cite: 10]
+## 5. Thiết kế bộ ca kiểm thử đặc biệt cho Form (Edge Cases)[cite: 10]
 | STT | Tên ca kiểm thử | Loại dữ liệu | Dữ liệu thử nghiệm (Input) | Kết quả mong đợi (Expected Output) |
 | :---: | :--- | :--- | :--- | :--- |
 | **TC-EDGE-01** | Bỏ trống bắt buộc | Dữ liệu rỗng | Không nhập Họ tên, Email | Báo lỗi cảnh báo trường bắt buộc, không cho phép gửi dữ liệu[cite: 10]. |
@@ -62,4 +62,4 @@ Người lập: Tester(Ngô Thùy Ngân)
 | **TC-EDGE-04** | Sai định dạng Email | Giá trị không hợp lệ | `ngantk@`, `ngantk.com`, `ngan@gmail` (thiếu phần mở rộng domain) | Trình duyệt kích hoạt cảnh báo sai chuẩn email. |
 | **TC-EDGE-05** | Số điện thoại chứa ký tự | Định dạng số | `0987abc123`, `098-765-432` | Báo lỗi định dạng chỉ chấp nhận đúng 10 chữ số tiêu chuẩn. |
 
-## 8.
+## 6.
