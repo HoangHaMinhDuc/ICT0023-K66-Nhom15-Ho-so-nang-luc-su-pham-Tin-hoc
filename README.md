@@ -8,7 +8,10 @@ Bài tập lớn ICT0023, K66. Website tĩnh dùng HTML, CSS, Bootstrap, JavaScr
 
 | Họ tên | GitHub | Vai trò | Nhiệm vụ |
 |---|---|---|---|
-| (điền) | (điền) | (điền) | (điền) |
+| Hoàng Hà Minh Đức | duchhm.k66sptin@utb.edu.vn | Cordinator |  |
+| Khúc Trọng Nam | namkt.k66sptin@utb.edu.vn | Coder |  |
+| Hà Tuấn Hưng | hunght.k66sptin@utb.edu.vn | Navigator |  |
+| Ngô Thuỳ Ngân | ngannt.k66sptin@utb.edu.vn | Tester |  |
 
 ## Trang
 `index.html` giới thiệu · `thanh-vien.html` hồ sơ thành viên · `san-pham.html` sản phẩm (lọc, sắp xếp, modal) · `ky-nang.html` kỹ năng và hỏi đáp · `cong-cu.html` tạo hồ sơ in · `lien-he.html` form liên hệ
