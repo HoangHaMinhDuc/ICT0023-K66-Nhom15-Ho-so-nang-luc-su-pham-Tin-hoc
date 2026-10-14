@@ -1,4 +1,4 @@
-// Dữ liệu mẫu đã ẩn danh. Nhóm thay bằng dữ liệu thật khi từng thành viên đồng ý công bố.
+
 const MEMBERS = [
   { id: 1, name: "Khúc Trọng Nam", role: "Nhóm trưởng, Driver", year: 2, skills: ["HTML/CSS", "JavaScript", "Git"], bio: "Phụ trách cấu trúc website và quy trình Git của nhóm." },
   { id: 2, name: "Ngô Thuỳ Ngân", role: "Thành viên, Tester", year: 2, skills: ["HTML/CSS", "JavaScript", "Git"], bio: "Phụ trách kiểm tra, chỉnh sửa, bổ sung nội dung trang web." },
@@ -36,14 +36,7 @@ const FAQS = [
   { q: "Liên hệ nhóm bằng cách nào?", a: "Dùng form ở trang Liên hệ. Lời nhắn chỉ xem trước trên trình duyệt." }
 ];
 
-// ===== CẤU HÌNH ẢNH (thư mục image/, tên tệp liền không dấu gạch nối, đuôi .jpg) =====
-const IMAGES = {
-  hero: "image/herobg.jpg",         // ảnh nền tùy chọn cho phần đầu trang chủ; không có tệp thì bỏ qua
-  member: (id) => "image/thanhvien" + id + ".jpg",     // thanhvien1, thanhvien2, ...
-  product: (id) => "image/sanpham" + id + ".jpg",      // sanpham1 ... sanpham8
-  placeholder: "image/placeholder.jpg"
-};
-// Quy ước: mọi ảnh trong image/ đều có đuôi .jpg, viết thẳng đường dẫn đầy đủ trong HTML hoặc dùng các hàm ở trên.
+
 const MEMBER_ALT = {
   1: "Ảnh chân dung Khúc Trọng Nam",
   2: "Ảnh chân dung Ngô Thuỳ Ngân",
